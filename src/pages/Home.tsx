@@ -89,7 +89,7 @@ const HomePage: React.FC = () => {
                     </small>
 
                     <hr/>
-                    <small>Type:
+                    <small>Weaknesses:
                     {poke.weaknesses.map((unique, pk) => {
                             return (
                               <span
